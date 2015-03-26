@@ -1,0 +1,25 @@
+  body {background-color:black}
+
+  #title {
+    font: 400 3.5em/125% 'Sofia', Helvetica, Sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;  
+  }
+  
+  #user {
+    font: 400 3.5em/25% 'Sofia', Helvetica, Sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;  
+  }
+
+  #image {
+    text-align: center;
+  }
+
+  #login {
+    text-align: center;
+  }
+
+

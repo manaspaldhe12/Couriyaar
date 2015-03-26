@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Shop!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sofia" />
+    <link rel="stylesheet" type="text/css" href="generic.css">
+    <link rel="stylesheet" type="text/css" href="add-request.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://tablesorter.com/__jquery.tablesorter.js"></script>
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="./client.js"></script>
+    <script src="./facebookLogin.js"></script>
+
+</head>
+<body>
+
+  <div>
+    <p id="topbar"> <a class="nounderline" href="http://www.couriyaar.com">Home</a>         <a class="nounderline" href="http://www.couriyaar.com/what-is-couriyaar.html">What is Couriyaar</a>         <a class="nounderline" href="http://www.couriyaar.com/terms-and-conditions.html">Terms & Conditions</a>      	<a class="nounderline" href="http://www.couriyaar.com/contact-us.html">Contact Us</a>  </p>
+</div>
+
+<div id="user">
+  <p id="user-welcome"> Hello!</p>
+  <p id="logout"> </p>    
+</div>
+<p id="title" > Your Requests</p>
+
+<div id="add-trip-div">
+    <div id="airports" class="ui-widget">
+        <label for="from">From: </label>
+        <input type="text" id="from">
+        <label for="to">To: </label>
+        <input type="text" id="to">
+    </div>
+    <div id="dates" class="ui-widget">
+       <label for="on">On:</label> 
+       <input type="text" id="on" name="on"/>
+   </div>
+   <div id="daterange">           
+      <label for=daterangeselect"> Date range: </label> 
+      <select id="daterangeselect" class="selectRange"
+      <option class="selectRange" value="7">+/- 7 days</option>
+      <option class="selectRange" value="5">+/- 5 days</option>
+      <option class="selectRange" value="3">+/- 3 days</option>
+      <option class="selectRange" value="0">Use exact day</option>
+  </select>
+</div>
+
+<button id="add" type="button" class="buttonAdd" onclick=addRequest()>Add Request!</button>
+
+<p id="add-trip">
+    <a href="./add-trip.html">Travel</a>
+</p>
+
+<div id="status"> </div>
+</div>
+
+<p id="result"> </p>
+<div id="see-possible-matches"> </div>
+<p id="delete-trips"> </p>
+
+<script> 
+    main(); 
+    showAllRequests(); 
+</script>
+</body>
+</html>

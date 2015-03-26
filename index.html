@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel & Shop</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sofia" />
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="generic.css">
+</head>
+
+<body>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+  <script src="./client.js"></script>
+  <script src="./facebookLogin.js"></script>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+<div>
+  <p id="topbar"> <a class="nounderline" href="http://www.couriyaar.com">Home</a>         <a class="nounderline" href="http://www.couriyaar.com/what-is-couriyaar.html">What is Couriyaar</a>         <a class="nounderline" href="http://www.couriyaar.com/terms-and-conditions.html">Terms & Conditions</a>         <a class="nounderline" href="http://www.couriyaar.com/contact-us.html">Contact Us</a>  </p>
+</div>
+
+<p id="title" > Travel & Shop </p>
+
+<div id="user">
+  <p id="user-welcome"> Welcome!</p>
+  <p id="logout"> </p>    
+</div>
+
+<div id="status"> </div>
+<div id="image">
+  <a href="#" onclick="addTripLoginCheck()" >
+    <figure href="add-trip.html" > 
+      <img id="travel_image" src="./MainPage/Travel/travel1.jpg" height="400" width="800">
+      <figcaption class="figcaption"> 
+        I am Travelling!
+      </figcaption>
+    </figure> 
+  </a>
+
+  <a href="#" onclick="addShopLoginCheck()" >
+    <figure> 
+      <img id="shopping_image" src="./MainPage/Shopping/shopping1.jpg" height="400" width="800">
+      <figcaption class="figcaption"> 
+        I am Shopping!
+      </figcaption>
+    </figure> 
+  </a>
+</div>
+
+<script> 
+  googleAnalytics();
+  changeTravelImage(); 
+  setTimeout(function() { changeShoppingImage();}, 3000);
+</script>
+
+<div id="login">
+  <fb:login-button scope="public_profile, email, user_friends" onlogin="checkLoginState();"> </fb:login-button>
+</div> 
+
+<div
+class="fb-like"
+data-send="true"
+data-width="450"
+data-colorscheme="dark" 
+data-show-faces="false">
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+  body {background-color:black}
+
+  #title {
+    font: 400 3.5em/125% 'Sofia', Helvetica, Sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;  
+  }
+  
+  #user {
+    font: 400 3.5em/25% 'Sofia', Helvetica, Sans-serif;
+    text-align: center;
+    color: white;  
+  }
+
+  #image {
+    text-align: center;
+  }
+
+  #login {
+    text-align: center;
+  }
+
+  figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+  }
+
+  figure img {
+    vertical-align: top;
+    text-align: center;
+  }
+
+  figure figcaption{
+    font: 400 3.5em/125% 'Sofia', Helvetica, Sans-serif;
+    text-align: center;
+    color: white;  
+  }
+
+  a {
+    outline: none;
+  }
+
+  *{
+   font-size: 1.5em/125% Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; 
+   text-align: center;
+   color: white;  
+ }
+
+ .notUser {
+   padding: 0;
+   border: none;
+   background: none;
+   border-radius: 0px;
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   color: #bd0f0f;
+   font-size: 15px;
+   text-decoration: none;
+ }
+
+ .notUser:hover {
+   padding: 0;
+   border: none;
+   background: none;
+   border-radius: 0px;
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   color: #bd0f0f;
+   font-size: 20px;
+   text-decoration: none;
+ }
+ 
+ .buttonAdd {
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   color: #ffffff;
+   font-size: 20px;
+   background: #19781d;
+   padding: 5px 10px 5px 10px;
+   text-decoration: none;
+ }
+
+ .buttonAdd:hover {
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   color: #ffffff;
+   color: #ffffff;
+   font-size: 25px;
+   background: #19781d;
+   padding: 5px 10px 5px 10px;
+   text-decoration: none;
+ }
+
+ .delButton {
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   color: #ff0000;
+   font-size: 15px;
+   background: #000000;
+   padding: 0;
+   border: solid #ff0000 2px;
+   padding: 2px 5px 2px 5px;
+   text-decoration: none;
+ }
+
+ .delButton:hover {
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   color: #ff0000;
+   font-size: 20px;
+   background: #000000;
+   padding: 0;
+   border: solid #ff0000 2px;
+   padding: 0px 5px 0px 5px;
+   text-decoration: none;
+ }
+
+ .buttonTransparent {
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   font-size: 15px;
+   background: transparent;
+   background-repeat:no-repeat;
+   display: inline-block;
+   margin-bottom: 50;
+ }
+
+ .buttonTransparent:hover {
+   font: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; /*'Sofia', Helvetica, Sans-serif; */
+   font-size: 20px;
+   background: transparent;
+   background-repeat:no-repeat;
+   display: inline-block;
+   margin-bottom: 50;
+ }
+
+ .fb-like {
+  height: 20px;
+  overflow: hidden;
+}
+
+#topbar {
+  font-size: 20px;
+  text-align: right;
+}
+
+.nounderline {
+  text-decoration: none  !important;    
+  padding-left:2em;
+}
+
+#how-to-use, #contact-us, #terms-and-conditions {
+  font-size: 30px;
+  margin: 2cm 4cm 3cm 4cm;
+  text-align: justify;
+  font-style: normal;
+}
+
+

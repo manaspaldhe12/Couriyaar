@@ -1,0 +1,78 @@
+  #add-trip-div{
+    font-size: 1.5em;
+    text-align: center;
+    color: black;  
+  }
+
+  #add-request{
+    font: 1.5em/125% 'Sofia', Helvetica, Sans-serif;    
+    font-family: 'Sofia', Helvetica, sans-serif;
+    text-align: center;
+    color: black;  
+    font-style: italic;
+  }
+
+  .ui-autocomplete{
+    width: 20;
+  }
+
+  .ui-autocomplete.ui-widget {
+    cursor: default;
+    height: 200px;
+    overflow-y: scroll;
+    color: black;
+  }
+
+  .ui-autocomplete.ui-menu {
+    color: black;
+  }
+
+  .ui-menu-item {
+    color: black;
+  }
+
+  #airports {
+    color: black;
+    margin-bottom: 50px;
+  }
+
+  #dates {
+    color: black;
+    margin-bottom: 50px;
+  }
+
+  .ui-autocomplete-input {
+    color: black;  
+    clear: left;
+    width: 300px;
+  }
+
+  .hasDatepicker {
+    color: black;
+    clear: left;
+    width: 300px;
+  }
+
+  #from {
+   font-size: 1.5em ;
+   margin-right: 70;
+ }
+
+ #to {
+   font-size: 1.5em ;
+ }
+
+ #on {
+  margin-right: 40;
+  font-size: 1.5em ;
+}
+
+#return {
+	font-size: 1.5em ;
+}
+
+#onlabel {
+  margin-left: 20;
+}
+
+
